@@ -100,6 +100,7 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  border: 1px solid #757575;
 }
 .button:hover,
 .button:focus {
