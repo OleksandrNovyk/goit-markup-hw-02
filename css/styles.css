@@ -1,4 +1,84 @@
 body {
+  color: #212121;
+  background-color: #f5f5f5;
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
+}
+
+/*Logo*/
+
+.txt-blue {
+  color: #2196f3;
+}
+.txt-black {
+  color: #000000;
+}
+
+.main-link {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.main-link:focus {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+/*Header*/
+
+.link {
+  color: inherit;
+  font-size: 14px;
+  font-weight: 500;
+}
+.link:hover {
+  color: #2196f3;
+  font-weight: 500;
+}
+
+/*Main*/
+
+.button {
+  cursor: pointer;
+  font-family: inherit;
+  color: inherit;
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.name-list {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: inherit;
+}
+
+.paragraph-list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
+}
+
+/*Footer*/
+
+.link-footer {
+  color: #ffffff;
+  opacity: 0.6;
+  font-size: 14px;
+  font-weight: 400;
+}
+.link-footer:hover {
+  color: #ffffff;
+  opacity: 0.6;
+  font-size: 14px;
+  font-weight: 400;
 }
