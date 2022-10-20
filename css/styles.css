@@ -1,3 +1,8 @@
+:root {
+  --main-title-color: #ffffff;
+  --secondary-title-color: #757575;
+}
+
 body {
   color: #212121;
   background-color: #f5f5f5;
@@ -51,7 +56,7 @@ a {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  color: #ffffff;
+  color: var(--main-title-color);
   background-color: #2f303a;
   text-align: center;
 }
@@ -66,7 +71,7 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  color: #757575;
+  color: var(--secondary-title-color);
 }
 
 .our-work {
@@ -88,7 +93,7 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
-  color: #757575;
+  color: var(--secondary-title-color);
   text-align: center;
 }
 
@@ -100,7 +105,7 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  border: 1px solid #757575;
+  border: 1px solid var(--secondary-title-color);
 }
 .button:hover,
 .button:focus {
@@ -119,7 +124,7 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  color: #757575;
+  color: var(--secondary-title-color);
 }
 
 /*Footer*/
@@ -133,7 +138,7 @@ a {
 }
 
 .link-footer {
-  color: #ffffff;
+  color: var(--main-title-color);
   opacity: 0.6;
   font-size: 14px;
   font-weight: 400;
@@ -143,7 +148,7 @@ a {
   line-height: 1.71;
 }
 .link-footer:hover {
-  color: #ffffff;
+  color: var(--main-title-color);
   opacity: 0.6;
   font-size: 14px;
   font-weight: 400;
