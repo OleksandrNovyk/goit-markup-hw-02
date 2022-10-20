@@ -6,6 +6,9 @@ body {
 }
 
 /*Logo*/
+ul {
+  list-style: none;
+}
 
 .txt-blue {
   color: #2196f3;
@@ -127,6 +130,9 @@ body {
   font-size: 14px;
   font-weight: 400;
   background-color: #2f303a;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  line-height: 1.71;
 }
 .link-footer:hover {
   color: #ffffff;
