@@ -45,6 +45,7 @@ body {
   font-size: 44px;
   line-height: 1.36;
   color: #ffffff;
+  background-color: #2f303a;
 }
 .specialities {
   font-weight: 700;
@@ -112,11 +113,20 @@ body {
 
 /*Footer*/
 
+.low-content {
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2094px;
+  background-color: #2f303a;
+}
+
 .link-footer {
   color: #ffffff;
   opacity: 0.6;
   font-size: 14px;
   font-weight: 400;
+  background-color: #2f303a;
 }
 .link-footer:hover {
   color: #ffffff;
