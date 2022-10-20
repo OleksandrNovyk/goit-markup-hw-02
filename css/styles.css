@@ -31,6 +31,7 @@ body {
   color: inherit;
   font-size: 14px;
   font-weight: 500;
+  line-height: 1.14;
 }
 .link:hover {
   color: #2196f3;
@@ -38,6 +39,47 @@ body {
 }
 
 /*Main*/
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: #ffffff;
+}
+.specialities {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: inherit;
+}
+
+.paragraph-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
+}
+
+.our-work {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  color: inherit;
+}
+
+.our-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: inherit;
+}
+
+.team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  color: #757575;
+}
 
 .button {
   cursor: pointer;
