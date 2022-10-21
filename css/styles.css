@@ -22,9 +22,6 @@ a {
 .txt-blue {
   color: #2196f3;
 }
-.txt-black {
-  color: #000000;
-}
 
 .main-link {
   font-family: "Raleway", sans-serif;
@@ -113,6 +110,17 @@ a {
   background-color: #2196f3;
 }
 
+.btn {
+  color: #ffffff;
+  background-color: #2196f3;
+  border: 1px solid var(--secondary-title-color);
+}
+
+.btn:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
 .name-list {
   font-weight: 700;
   font-size: 18px;
@@ -141,15 +149,15 @@ a {
   color: var(--main-title-color);
   opacity: 0.6;
   font-size: 14px;
-  font-weight: 400;
-  background-color: #2f303a;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   line-height: 1.71;
+  font-weight: 400;
+  font-family: inherit;
+  font-style: normal;
 }
 .link-footer:hover {
   color: var(--main-title-color);
   opacity: 0.6;
   font-size: 14px;
+  line-height: 1.71;
   font-weight: 400;
 }
