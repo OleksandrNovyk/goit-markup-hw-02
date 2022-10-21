@@ -1,21 +1,23 @@
 :root {
   --main-title-color: #ffffff;
   --secondary-title-color: #757575;
+  --main-text-color: #212121;
+  --button-primary-color: #ffffff;
 }
 
 body {
-  color: #212121;
-  background-color: #f5f5f5;
-  font-family: "Raleway", sans-serif;
+  background-color: #ffffff;
   font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 
 /*Logo*/
-ul {
+.list {
   list-style: none;
 }
 
-a {
+.link-list {
   text-decoration: none;
 }
 
@@ -23,13 +25,21 @@ a {
   color: #2196f3;
 }
 
+.txt-black {
+  color: #000000;
+}
+
 .main-link {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
-.main-link:focus {
+.main-link:focus,
+.main-link:active {
   font-size: 26px;
   font-weight: 700;
 }
@@ -37,12 +47,43 @@ a {
 /*Header*/
 
 .link {
-  color: inherit;
-  font-size: 14px;
+  color: var(--main-text-color);
   font-weight: 500;
   line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
-.link:hover {
+
+.link:hover,
+.link:focus {
+  color: #2196f3;
+  font-weight: 500;
+}
+
+.link-secondary {
+  color: #2196f3;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.link-secondary:hover,
+.link-secondary:focus {
+  color: #2196f3;
+  font-weight: 500;
+}
+
+.link-title {
+  font-weight: 400;
+  line-height: 1.14;
+  color: var(--secondary-title-color);
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.link-title:hover,
+.link-title:focus {
   color: #2196f3;
   font-weight: 500;
 }
@@ -56,34 +97,36 @@ a {
   color: var(--main-title-color);
   background-color: #2f303a;
   text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .specialities {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
-  color: inherit;
+  color: var(--main-text-color);
 }
 
 .paragraph-title {
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-title-color);
 }
 
-.our-work {
+.our-work,
+.our-team {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  color: inherit;
+  color: var(--main-text-color);
+  text-align: center;
 }
 
-.our-team {
+.team-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.18;
-  color: inherit;
+  line-height: 1.16;
   text-align: center;
+  color: var(--main-text-color);
 }
 
 .team-position {
@@ -106,7 +149,7 @@ a {
 }
 .button:hover,
 .button:focus {
-  color: #ffffff;
+  color: var(--button-primary-color);
   background-color: #2196f3;
 }
 
@@ -114,28 +157,39 @@ a {
   color: #ffffff;
   background-color: #2196f3;
   border: 1px solid var(--secondary-title-color);
+  letter-spacing: 0.06em;
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 700;
 }
 
+.btn:hover,
 .btn:focus {
   color: #ffffff;
   background-color: #2196f3;
+  border: 1px solid var(--secondary-title-color);
+  opacity: 0.8;
 }
 
-.name-list {
+.project-name {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  color: inherit;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
 }
 
 .paragraph-list {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   color: var(--secondary-title-color);
 }
 
 /*Footer*/
+
+.txt-white {
+  color: var(--main-title-color);
+}
 
 .low-content {
   width: 1600px;
@@ -147,17 +201,27 @@ a {
 
 .link-footer {
   color: var(--main-title-color);
-  opacity: 0.6;
-  font-size: 14px;
   line-height: 1.71;
-  font-weight: 400;
-  font-family: inherit;
   font-style: normal;
+  text-decoration: none;
 }
-.link-footer:hover {
+.link-footer:hover,
+.link-footer:focus {
+  color: var(--main-title-color);
+  opacity: 0.8;
+}
+.link-contact {
   color: var(--main-title-color);
   opacity: 0.6;
-  font-size: 14px;
   line-height: 1.71;
-  font-weight: 400;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.link-contact:hover,
+.link-contact:focus,
+.link-contact:active {
+  color: var(--secondary-title-color);
+  text-decoration: none;
 }
